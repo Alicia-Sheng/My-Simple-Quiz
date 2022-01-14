@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Simple Quiz</title>
+        <meta name="description" content="A Simple Quiz">
+        <meta name="author" content="Alicia Sheng">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assessment.css">
+        <script>
+            function clicked() {
+              alert("Your selection has been submitted successfully!");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>My Simple Quiz</h1>
+            <hr>
+        </div>
+        <div class="question">
+            <p>What is your favorite programming language?</p>
+            <select>
+                <option value="">--Please choose an option--</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="javascipt">JavaScript</option>
+                <option value="c++">C++</option>
+            </select>
+            <input type="submit" value="Submit" onclick="clicked()">
+        </div>
+    </body>
+</html>
